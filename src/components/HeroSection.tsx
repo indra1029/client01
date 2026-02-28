@@ -21,7 +21,7 @@ const HeroSection = () => {
           className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-border bg-card/40 backdrop-blur mb-8"
         >
           <Play size={14} className="text-primary fill-primary" />
-          <span className="text-sm text-muted-foreground">Professional Video Editing Services</span>
+          <span className="text-sm text-muted-foreground">Freelance Video Editor — YouTube, Reels & Ads</span>
         </motion.div>
 
         <motion.h1
@@ -30,10 +30,10 @@ const HeroSection = () => {
           transition={{ duration: 0.8, delay: 0.15 }}
           className="text-4xl sm:text-6xl lg:text-7xl font-bold leading-tight tracking-tight mb-6"
         >
-          Transforming Raw Footage
+          Professional Video Editing
           <br />
-          Into{" "}
-          <span className="text-gradient">Cinematic Stories</span>
+          Services That{" "}
+          <span className="text-gradient">Drive Results</span>
         </motion.h1>
 
         <motion.p
@@ -42,8 +42,8 @@ const HeroSection = () => {
           transition={{ duration: 0.8, delay: 0.3 }}
           className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto mb-10"
         >
-          From YouTube videos to social media reels, promotional ads to short films — 
-          I craft visuals that captivate, engage, and convert.
+          Hire a professional video editor for YouTube channels, Instagram Reels, 
+          promotional ads, corporate videos & short films — cinematic quality, fast turnaround.
         </motion.p>
 
         <motion.div

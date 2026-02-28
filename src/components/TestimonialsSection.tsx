@@ -5,7 +5,7 @@ const testimonials = [
   {
     name: "Priya Sharma",
     role: "YouTube Creator",
-    text: "Deepak completely transformed my channel's look. His editing style is so professional — my views doubled within a month!",
+    text: "Deepak completely transformed my channel's look. His editing style is so professional my views doubled within a month!",
   },
   {
     name: "Rohit Verma",
@@ -20,7 +20,7 @@ const testimonials = [
   {
     name: "Vikram Singh",
     role: "Podcast Host",
-    text: "He handled our multi-camera podcast editing flawlessly. Great communication, fast turnaround, and the quality speaks for itself.",
+    text: "He handled our multicamera podcast editing flawlessly. Great communication, fast turnaround, and the quality speaks for itself.",
   },
 ];
 

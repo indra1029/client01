@@ -23,17 +23,17 @@ const AboutSection = () => {
           >
             <span className="text-sm font-semibold text-primary uppercase tracking-widest">About Me</span>
             <h2 className="text-3xl sm:text-4xl font-bold mt-3 mb-6">
-              Crafting Visual Stories That{" "}
-              <span className="text-gradient">Leave a Mark</span>
+              Expert Video Editor With{" "}
+              <span className="text-gradient">4+ Years Experience</span>
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              I'm Deepak Jain, a professional video editor with 4+ years of experience turning raw footage 
-              into polished, engaging content. I specialize in YouTube videos, social media reels, promotional 
-              ads, short films, and digital media projects.
+              I'm Deepak Jain, a freelance video editor with 4+ years of hands-on experience delivering 
+              high-quality video editing for YouTube creators, brands, and businesses. I specialize in 
+              YouTube video editing, Instagram Reels, promotional ads, corporate videos, and short films.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              My mission is simple — to help creators, brands, and businesses tell their stories with 
-              cinematic quality that stands out in a crowded digital world.
+              Whether you need a dedicated video editor for your YouTube channel or compelling ad content 
+              that converts — I deliver cinematic quality with fast turnaround times.
             </p>
           </motion.div>
 

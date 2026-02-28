@@ -25,8 +25,11 @@ const ServicesSection = () => {
         >
           <span className="text-sm font-semibold text-primary uppercase tracking-widest">Services</span>
           <h2 className="text-3xl sm:text-4xl font-bold mt-3">
-            What I <span className="text-gradient">Offer</span>
+            Video Editing <span className="text-gradient">Services</span>
           </h2>
+          <p className="text-muted-foreground mt-3 max-w-xl mx-auto text-sm">
+            From YouTube video editing to Instagram Reels, promotional ads to corporate content — tailored for your brand.
+          </p>
         </motion.div>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">

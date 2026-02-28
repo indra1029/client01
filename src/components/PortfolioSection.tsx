@@ -30,7 +30,7 @@ const PortfolioSection = () => {
             My <span className="text-gradient">Recent Work</span>
           </h2>
           <p className="text-muted-foreground mt-4 max-w-xl mx-auto">
-            Watch some of my latest video editing projects — each crafted with precision and creative vision.
+            Watch some of my latest video editing projects each crafted with precision and creative vision.
           </p>
         </motion.div>
 
@@ -73,7 +73,7 @@ const PortfolioSection = () => {
           viewport={{ once: true }}
           className="text-center text-muted-foreground text-sm mt-8"
         >
-          Want to see more? <a href="https://wa.me/918302803076?text=Hi%20Deepak,%20I%20want%20to%20see%20more%20of%20your%20work!" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Message me</a> for the full portfolio.
+          Want to see more? <a href="https://wa.me/918302803076?text=Hi%20Deepak,%20I%20want%20to%20see%20more%20of%20your%20work!" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Contact me for a demo.</a>
         </motion.p>
       </div>
     </section>

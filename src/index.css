@@ -49,17 +49,30 @@
     --shadow-glow: 0 0 30px hsl(190 90% 50% / 0.15);
   }
 
+  /* FIX: Ensure no element can grow wider than the screen */
   * {
     @apply border-border;
+    box-sizing: border-box;
+  }
+
+  /* FIX: Force body and html to stay within the viewport */
+  html, body {
+    max-width: 100vw;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    position: relative;
   }
 
   body {
     @apply bg-background text-foreground font-sans;
     font-family: 'Inter', sans-serif;
+    min-height: 100vh;
   }
 
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Space Grotesk', sans-serif;
+    word-break: break-word; /* Prevents long words/titles from stretching the page */
   }
 
   html {
