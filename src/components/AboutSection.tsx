@@ -33,7 +33,7 @@ const AboutSection = () => {
             </p>
             <p className="text-muted-foreground leading-relaxed">
               Whether you need a dedicated video editor for your YouTube channel or compelling ad content 
-              that converts — I deliver cinematic quality with fast turnaround times.
+              that converts — I create cinematic-quality content delivered quickly and professionally.
             </p>
           </motion.div>
 

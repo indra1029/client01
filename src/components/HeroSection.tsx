@@ -42,8 +42,7 @@ const HeroSection = () => {
           transition={{ duration: 0.8, delay: 0.3 }}
           className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto mb-10"
         >
-          Hire a professional video editor for YouTube channels, Instagram Reels, 
-          promotional ads, corporate videos & short films — cinematic quality, fast turnaround.
+          Elevate your content with professional video editing for YouTube, Instagram, ads, corporate films, and short projects — cinematic visuals.
         </motion.p>
 
         <motion.div
@@ -82,7 +81,7 @@ const HeroSection = () => {
         >
           {[
             { num: "4+", label: "Years Experience" },
-            { num: "100+", label: "Projects Delivered" },
+            { num: "500+", label: "Projects Delivered" },
             { num: "50+", label: "Happy Clients" },
           ].map((s) => (
             <div key={s.label} className="text-center">

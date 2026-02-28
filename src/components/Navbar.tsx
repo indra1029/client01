@@ -17,6 +17,21 @@ const navLinks = [
 const Navbar = () => {
   const [open, setOpen] = useState(false);
 
+  const handleNavClick = (e: React.MouseEvent, href: string) => {
+    e.preventDefault();
+    e.stopPropagation();
+    const id = href.replace("#", "");
+    setOpen(false);
+    // Wait for menu to fully close before scrolling
+    setTimeout(() => {
+      const el = document.getElementById(id);
+      if (el) {
+        const top = el.getBoundingClientRect().top + window.scrollY - 64;
+        window.scrollTo({ top, behavior: "smooth" });
+      }
+    }, 350);
+  };
+
   return (
     <motion.nav
       initial={{ y: -80 }}
@@ -73,7 +88,7 @@ const Navbar = () => {
                 <a
                   key={l.href}
                   href={l.href}
-                  onClick={() => setOpen(false)}
+                  onClick={(e) => handleNavClick(e, l.href)}
                   className="text-foreground hover:text-primary transition-colors"
                 >
                   {l.label}
