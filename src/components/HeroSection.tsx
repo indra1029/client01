@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Play, ArrowDown } from "lucide-react";
-import heroBg from "@/assets/hero-bg.mp4";
+import heroBg from "@/assets/hero-bg1.mp4";
 
 const HeroSection = () => {
   return (
@@ -16,8 +16,10 @@ const HeroSection = () => {
         >
           <source src={heroBg} type="video/mp4" />
         </video>
-        {/* Dark overlay for readability */}
-        <div className="absolute inset-0 bg-background/75" />
+        
+        {/* Dark overlay - Reduced from 75% to 40% for better video visibility */}
+        <div className="absolute inset-0 bg-background/40" />
+        
         {/* Film strip lines */}
         <div className="absolute top-0 left-8 w-px h-full bg-gradient-to-b from-transparent via-border to-transparent opacity-30" />
         <div className="absolute top-0 right-8 w-px h-full bg-gradient-to-b from-transparent via-border to-transparent opacity-30" />
@@ -52,8 +54,8 @@ const HeroSection = () => {
           transition={{ duration: 0.8, delay: 0.3 }}
           className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto mb-10"
         >
-         Evelvate Your Content with professional video editing for YouTube,Instagram
-         ,ads,corporate films, and short projects - cinematic visuals.
+          Elevate Your Content with professional video editing for YouTube, Instagram,
+          ads, corporate films, and short projects - cinematic visuals.
         </motion.p>
 
         <motion.div
